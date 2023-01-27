@@ -1,0 +1,11 @@
+{
+  "name": "icehrm/php-active-record",
+  "description": "Simple PHP library to access databases using active record pattern",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": { "": "src/" }
+  },
+  "license": "MIT"
+}
