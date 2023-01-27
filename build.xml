@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="php-active-record" default="build">
+    <target name="build"
+            depends="phpunit"
+            description=""/>
+
+    <target name="phpunit"
+            depends="prepare"
+            description="Run unit tests with PHPUnit">
+    <exec executable="${toolsdir}phpunit" failonerror="true">
+        <arg value="--configuration"/>
+        <arg path="${basedir}/phpunit.xml"/>
+    </exec>
+</project>
