@@ -1,6 +1,13 @@
 {
   "name": "icehrm/php-active-record",
   "description": "Simple PHP library to access databases using active record pattern",
+  "keywords": [
+    "database",
+    "persistence",
+    "php",
+    "mysql",
+    "active record"
+  ],
   "require": {
     "php": ">=7.0"
   },
